@@ -6,6 +6,9 @@
 
 .nav-container {
     background: rgb(7, 7, 7);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 nav {
@@ -51,9 +54,11 @@ nav {
     .order{
         background: #f54538;
         padding: 1rem 2rem;
+        
         border-radius: 2rem;
     }
 }
+
 
 
 
@@ -66,12 +71,14 @@ nav {
     h2{
         grid-column: 2/3;
         align-self: flex-end;
+        
 
     }
     img{
         grid-row: 2/3;
         grid-column: 3/4;
-        height: 120%;
+        height: 125%;
+
         object-fit: cover;
         align-self: center;
         justify-self: center;
@@ -79,6 +86,11 @@ nav {
     .info {
         grid-column: 4/5;
         grid-row: 3/4;
+        
+
+        h3 {
+            padding-bottom: 3rem;
+        }
     }
 }
 
