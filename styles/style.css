@@ -206,7 +206,7 @@ nav .order {
 
 .features .cards .card {
   background: white;
-  margin: 0 7rem;
+  margin: 0 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,7 +224,7 @@ nav .order {
 }
 
 .features .cards .card p {
-  padding: 2rem;
+  padding: 2rem 0 4rem 0;
 }
 
 .features .cards .card img {
